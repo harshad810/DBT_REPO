@@ -5,5 +5,5 @@ SELECT
      LOWER(EMAIL) AS EMAIL,
      CREATED_DATE,
      STATUS
-FROM {{ source('raw','CUSTOMERS')}}
+FROM {{ source('raw','CUSTOMERS') }}
    
